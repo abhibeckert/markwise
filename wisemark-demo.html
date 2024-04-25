@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wisemark Demo</title>
+</head>
+<body>
+    <form method="post">
+        <wisemark-editor>
+            <h2>Wisemark</h2>
+            <p>A simple WYSIWYG markdown editor.</p>
+            <p>Note paragraphs are the default for new lines but if you hit shift-return you'll get a line<br>break with two spaces after it in the markdown version.</p>
+            <hr>
+            <p><ol>
+                <li><b>Bold</b></li>
+                <li><i>Italic</i></li>
+                <li><a href="https://example.com/">Link</a></li>
+            </ol></p>
+            <blockquote>
+                Stay hungry, stay foolish.<br>
+                <br>
+                — <em>Steve Jobs</em>
+            </blockquote>
+        </wisemark-editor>
+        
+        <p><button type="submit">Submit</button></p>
+    </form>
+
+    <script src="src/wisemark.js"></script>
+</body>
+</html>
