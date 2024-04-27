@@ -1,4 +1,4 @@
-![Markwise Logo](artwork/markwise-256.png)
+<img src="artwork/markwise-256.png" alt="Markwise Logo" width="128" height="128" align="right">
 
 # Markwise
 
