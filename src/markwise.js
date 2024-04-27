@@ -1,9 +1,9 @@
-class WisemarkEditor extends HTMLElement {
+class MarkwiseEditor extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
         
-        this.parser = new WisemarkParser();
+        this.parser = new MarkwiseParser();
         
         this.htmlContent = this.innerHTML;
     }
@@ -356,7 +356,7 @@ class WisemarkEditor extends HTMLElement {
 
 }
 
-class WisemarkParser
+class MarkwiseParser
 {
     markdownFromHtml(str) {
         let parser = new DOMParser();
@@ -437,4 +437,4 @@ class WisemarkParser
 }
 
 
-customElements.define('wisemark-editor', WisemarkEditor);
+customElements.define('markwise-editor', MarkwiseEditor);

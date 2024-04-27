@@ -1,7 +1,7 @@
-# Wisemark
+# Markwise
 
 A simple WYSIWYG markdown editor for websites.
 
 ---
 
-***NOTE:*** This is a minimum viable product and may be unstable. Please report any issues you find. See `wisemark-demo.html` for an example.
+***NOTE:*** This is a minimum viable product and may be unstable. Please report any issues you find. See `markwise-demo.html` for an example.
